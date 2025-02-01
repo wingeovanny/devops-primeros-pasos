@@ -10,6 +10,7 @@ jobs:
       run:
         shell: bash
         working-directory: ./app-demo
+        
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
