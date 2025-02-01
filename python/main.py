@@ -1,6 +1,10 @@
-def generateCode():
-    codeInit = "100"
-    print(codeInit + 'joa')
+def sumar():
+    a = int(input("Indique primer valor: "))
+    b = int(input("Indique segundo valor: "))
+    return a + b
 
+def cat(file):
+    f = open(file, 'r')
+    print(f.read())
 
-generateCode()
+cat("main.py")
